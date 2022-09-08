@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 60px;
+    transition: border-radius 2s;
+}
+.avatar:hover{
+    border-radius: 75px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(to right,#ddebf8,#FFFFFF);
+    color: #1C5D99;
+    border-radius: 10px;
+    border-bottom: 5px solid #B4CDED;
+    border-right: 5px solid #B4CDED;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}

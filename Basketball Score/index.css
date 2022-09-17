@@ -1,0 +1,74 @@
+@font-face{
+    font-family: digi;
+    src: url(Font/digital-font/DN.otf)
+}
+
+body {
+    text-align: center;
+    font-family: digi;
+    margin: 0;
+    background-color: firebrick;
+    color: azure;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+
+.side{
+    margin: 50px auto;
+    font-size: 90px;
+    margin-bottom: 35;
+}
+
+.score{
+    margin: 0 auto 35px auto;
+    font-size: 110px;
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background: wheat;
+    border-radius: 10%;
+    box-shadow: 4px 4px 5px black;
+}
+
+.score:hover{
+    box-shadow: 8px 8px 8px black;
+}
+
+.buttons{
+    margin-top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indivButtons{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgreen;
+    font-size: 55px;
+    border-radius: 15%;
+    margin: 5px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px black;
+    color: darkblue;
+}
+
+.indivButtons:hover{
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid black;
+}
+
+.indivButtons:active{
+    color: red;
+}
+
+#reset-Btn{
+    background-color: lightslategrey;
+}

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Score Keeper</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <p class="side">HOME</p>
+                <p class="score" id="homeScore"></p>
+                <div class="buttons">
+                    <button class="indivButtons" onclick="add('H', 1)">+1</button>
+                    <button class="indivButtons" onclick="add('H', 2)">+2</button>
+                    <button class="indivButtons" onclick="add('H', 3)">+3</button>
+                </div>
+                <div class="buttons">
+                    <button class="indivButtons" onclick="sub('H', 1)">-1</button>
+                    <button class="indivButtons" onclick="sub('H', 2)">-2</button>
+                    <button class="indivButtons" onclick="sub('H', 3)">-3</button>
+                </div>
+            </div>
+            <div>
+                <p class="side">GUEST</p>
+                <p class="score" id="guestScore"></p>
+                <div class="buttons">
+                    <button class="indivButtons" onclick="add('G', 1)">+1</button>
+                    <button class="indivButtons" onclick="add('G', 2)">+2</button>
+                    <button class="indivButtons" onclick="add('G', 3)">+3</button>
+                </div>
+                <div class="buttons">
+                    <button class="indivButtons" onclick="sub('G', 1)">-1</button>
+                    <button class="indivButtons" onclick="sub('G', 2)">-2</button>
+                    <button class="indivButtons" onclick="sub('G', 3)">-3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="indivButtons" id="reset-Btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

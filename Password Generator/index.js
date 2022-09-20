@@ -6,7 +6,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let pwd_1El = document.getElementById("pwd_1-el")
 let pwd_2El = document.getElementById("pwd_2-el")
 let sizeErrorEl = document.getElementById("sizeError-el")
-let size = 10
+let size = 15
 
 function generate(){
     pwd_1El.textContent = " "

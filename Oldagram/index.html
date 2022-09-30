@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Oldagram</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wholeContainer">
+        <header class="header">
+            <img src="images/logo.png" alt="Logo Image" id="logo">
+            <img src="images/user-avatar.png" alt="Avatar" id="avatar">
+        </header>
+
+        <section>
+            <div class="userInfoContainer">
+                <img src="#" class="avatarArtist">
+                <div class="userName">
+                    <span class="userNameText"></span>
+                    <p class="userNameAndLoc"></p>
+                </div>
+            </div>
+            <img src="" class="post" ondblclick="updateLike(0)">
+            <div class="iconsContainer">
+                <img src="images/icon-heart.png" alt="heart" class="iconImg icon-heart" onclick="updateLike(0)">
+                <img src="images/icon-comment.png" alt="comment" class="iconImg">
+                <img src="images/icon-dm.png" alt="direct message" class="iconImg">
+            </div>
+            <div class="likesContainer">
+                <span class="likes"></span>
+            </div>
+            <div class="descContainer">
+                <span class="boldUser"></span><span class="desc"></span>
+            </div>
+            <div class="grey"></div>
+        </section>
+
+        <section>
+            <div class="userInfoContainer">
+                <img src="#" class="avatarArtist">
+                <div class="userName">
+                    <span class="userNameText"></span>
+                    <p class="userNameAndLoc"></p>
+                </div>
+            </div>
+            <img src="" class="post" ondblclick="updateLike(1)">
+            <div class="iconsContainer">
+                <img src="images/icon-heart.png" alt="heart" class="iconImg icon-heart" onclick="updateLike(1)">
+                <img src="images/icon-comment.png" alt="comment" class="iconImg">
+                <img src="images/icon-dm.png" alt="direct message" class="iconImg">
+            </div>
+            <div class="likesContainer">
+                <span class="likes"></span>
+            </div>
+            <div class="descContainer">
+                <span class="boldUser"></span><span class="desc"></span>
+            </div>
+            <div class="grey"></div>
+        </section>
+
+        <section>
+            <div class="userInfoContainer">
+                <img src="#" class="avatarArtist">
+                <div class="userName">
+                    <span class="userNameText"></span>
+                    <p class="userNameAndLoc"></p>
+                </div>
+            </div>
+            <img src="" class="post" ondblclick="updateLike(2)">
+            <div class="iconsContainer">
+                <img src="images/icon-heart.png" alt="heart" class="iconImg icon-heart" onclick="updateLike(2)">
+                <img src="images/icon-comment.png" alt="comment" class="iconImg">
+                <img src="images/icon-dm.png" alt="direct message" class="iconImg">
+            </div>
+            <div class="likesContainer">
+                <span class="likes"></span>
+            </div>
+            <div class="descContainer">
+                <span class="boldUser"></span><span class="desc"></span>
+            </div>
+            <div class="grey"></div>
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

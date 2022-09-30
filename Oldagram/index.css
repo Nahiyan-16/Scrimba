@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wholeContainer{
+    width: 375px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: inherit;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+#logo{
+    width: 127px;
+    height: 53px;
+    margin: 0 auto 0 10px;
+}
+
+#avatar{
+    max-width: 34px;
+    min-height: 34px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.userInfoContainer{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.userName{
+    height: 30px;
+}
+
+.userNameAndLoc,
+.userNameText{
+    margin: 0;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+.userNameText{
+    font-weight: 700;
+}
+
+.post{
+    width: 100%;
+    height: 375px;
+}
+
+.iconsContainer{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.iconImg{
+    height: 23px;
+    width: 22px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.iconImg:hover{
+    opacity: 0.7;
+}
+
+.likesContainer{
+    padding-left: 11px;
+}
+
+.likes{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.descContainer{
+    padding-left: 11px;
+    margin-bottom: 11px;
+}
+
+.desc,
+.boldUser{
+    font-size: 13px;
+}
+
+.desc{
+    font-weight: 400;
+}
+
+.boldUser{
+    font-weight: 700;
+}
+
+.grey{
+    height: 20px;
+    background-color: #d8d8d8;
+}
+
+.avatarArtist{
+    max-width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+

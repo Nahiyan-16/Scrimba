@@ -7,6 +7,10 @@ const memeModalInner = document.getElementById('meme-modal-inner')
 const memeModal = document.getElementById('meme-modal')
 const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
 
+function closeFromBackground(){
+    memeModal.style.display = 'none'
+}
+
 emotionRadios.addEventListener('change', highlightCheckedOption)
 
 memeModalCloseBtn.addEventListener('click', closeModal)
@@ -99,7 +103,3 @@ function renderEmotionsRadios(cats){
 }
 
 renderEmotionsRadios(catsData)
-
-
-
-

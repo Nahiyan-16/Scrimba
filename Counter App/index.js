@@ -31,6 +31,7 @@ function save() {
 function reset() {
     saveEl.textContent = "Previous entries: ";
     count = 0;
+    keepCount = 0;
     countEl.textContent = 0;
     keepEl.textContent = "";
 }

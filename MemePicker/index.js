@@ -20,7 +20,7 @@ getImageBtn.addEventListener('click', renderCat)
 function highlightCheckedOption(e){
     const radios = document.getElementsByClassName('radio')
     for (let radio of radios){
-        radio.classList.remove('highlight')
+        radio.classList.remove('highlight') 
     }
     document.getElementById(e.target.id).parentElement.classList.add('highlight')
 }
@@ -42,7 +42,7 @@ function renderCat(){
 }
 
 function getSingleCatObject(){
-    const catsArray = getMatchingCatsArray()
+    const catsArray = getMatchingCatsArray() 
     
     if(catsArray.length === 1){
         return catsArray[0]

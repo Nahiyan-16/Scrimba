@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     width: 600px;
     font-family: 'Amatic SC',sans-serif;
+    background-color: wheat;
 } 
 
 /* Header */
@@ -46,7 +47,7 @@ body {
     width: 508px;
     height: 140px;
     display: flex;
-    border-bottom: 1px solid #D2D2D2;
+    border-bottom: 1px solid #9a9797;
 }
 
 .Emoji{
@@ -65,12 +66,12 @@ body {
 
 .itemIngredients{
     font-size: 15px;
-    color: #8B8B8B;
+    color: #7d7b7b;
 }
 
 .addBtn{
     margin: 20px 20px 0 0;
-    border: 1.5px solid #DEDEDE;
+    border: 1.5px solid #9a9797;
     border-radius: 50%;
     background-color: transparent;
     width: 50px;
@@ -78,3 +79,130 @@ body {
     font-size: 32px;
     cursor: pointer;
 } 
+
+/* CheckOut */
+
+.checkOutContainer{
+    width: 508px;
+    height: 319px;
+    margin: 20px auto;
+}
+
+.checkOutHeader{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.checkedItemsContainer{
+    height: 100px;
+}
+
+.checkOutPartition{
+    border-bottom: 2px solid #393333;
+}
+
+.checkOutTotalPriceContainer{
+    margin: 20px 0 30px 0;
+    width: 100%;
+    display: flex;
+}
+
+.checkOutTotalPriceText{
+    margin-right: auto;
+}
+
+.checkOutOrderBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#checkOutOrderBtn,
+#cardDetailsBtn
+{
+    width: 204px;
+    height: 60px;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.checkOutListContainer{
+    display: flex;
+}
+
+.checkOutListName{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.checkOutListBtn{
+    margin-right: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.checkOutListBought{
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.checkOutListPrice{
+    font-size: 20px;
+}
+
+/* Modal */
+
+#modalContainer{
+    display: none;
+    width: 524px;
+    height: 542px;
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px
+}
+
+.cardDetailsText{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#cardInfo{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+
+.entryInfo{
+    height: 71px;
+    width: 475px;
+}
+
+.thankYouText{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.goBack{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}

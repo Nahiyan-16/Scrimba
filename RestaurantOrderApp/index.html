@@ -15,6 +15,17 @@
     <div id="menuContainer">
         <!-- Menu -->
     </div>
+    <div id="modalContainer">
+        <div class="cardDetailsText">Enter card details</div>
+        <form id="cardInfo">
+            <input  class="entryInfo" type="text" name="userName" placeholder="Enter your name" required>
+            <input class="entryInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}"
+            maxlength="19" placeholder="Enter Card Number" required>
+            <input class="entryInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{3}"
+            maxlength="3" placeholder="Enter CVV"required> 
+            <button type="submit" id="cardDetailsBtn">Pay</button>
+        </form>
+    </div>
 	<script src="index.js" type="module"></script>
     </body>
 </html>

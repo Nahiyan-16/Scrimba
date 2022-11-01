@@ -69,7 +69,7 @@ strong { font-weight: 900; }
    ================= */
    
 .intro {
-    background-image: url(images/ribs.jpg), linear-gradient(45deg,red, blue);
+    background-image: url(../images/ribs.jpg);
     /* background-color: #ff0000; */
     background-blend-mode: screen;
     background-size: cover;

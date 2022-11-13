@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    height: 100vh;
+    color: #D5D4D8;
+    background-color: #1F2937;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* Typography */
+
+header{
+    font-size: 2rem;
+}
+
+header button{
+    color: inherit;
+}
+
+#getScheme{
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+/* Header */
+
+header{
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    height: 10vh;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+#dropDownContainer{
+    width: 60%;
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1em;
+}
+
+#dropDownContainer,
+#dropDownOptions{
+    border-radius: 20px;
+    border: 1px solid #D1D5DB;
+}
+
+#dropDownSelector{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#dropDownOptions{
+    background-color: #1F2937;
+    width: 60%;
+    position: absolute;
+    margin-top: 2em;
+    padding: 0.5em;
+    margin-left: -1em;
+}
+
+.onAndOff{
+    display: none;
+}
+
+.dropDownScheme{
+    margin-bottom: 0.25em;
+    display: flex;
+}
+
+.addSpaceScheme{
+    margin-right: auto;
+    width: 100%;
+}
+
+.checkMark{
+    display: none;
+}
+
+#dropDownContainer:hover{
+    cursor: pointer;
+}
+
+#getScheme{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #D1D5DB;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+#getScheme:hover,
+#getScheme:focus{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+
+/* Body */
+
+main{
+    height: 70vh;
+    background-color: #2e3e53;
+    width: 100%;
+    display: flex;
+}
+
+.bodyColors{
+    width: 20%;
+    height: inherit;
+}
+
+/* Footer */
+
+footer{
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}

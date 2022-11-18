@@ -134,7 +134,7 @@ p.weather-temp {
     margin: 0;
 }
 
-.showNameClass{
+#getShowName{
     background: transparent;
     border: none;
     border-bottom: 2px solid white;
@@ -142,7 +142,7 @@ p.weather-temp {
     text-align: center;
 }
 
-.showNameClass:hover,
-.showNameClass:focus{
+#getShowName:hover,
+#getShowName:focus{
     outline: none;
 }

@@ -1,3 +1,8 @@
+document.body.style.visibility = 'hidden'
+setTimeout(()=>{
+    document.body.style.visibility = 'visible'
+},1350)
+
 fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature")
     .then(res => res.json())
     .then(data => {
@@ -88,7 +93,7 @@ function renderLinks(){
             html += `
                 <div class="links">
                     <button type='button' class="removeLink displayNone">−</button>
-                    <a href='https://${e[1]}' target='_blank'>${e[0]}</a>
+                    <a href='https://${e[1]}'>${e[0]}</a>
                 </div>
             `
         })

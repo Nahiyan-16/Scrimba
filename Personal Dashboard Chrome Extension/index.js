@@ -3,7 +3,7 @@ setTimeout(()=>{
     document.body.style.visibility = 'visible'
 },1350)
 
-fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature")
+fetch("https://api.unsplash.com/photos/random?query=nature&client_id=P1Qo9LPylsLT9IsyEINd-LFdSTeENYO4x9olDXp7zfM")
     .then(res => res.json())
     .then(data => {
         document.body.style.backgroundImage = `url(${data.urls.raw})`
@@ -23,7 +23,7 @@ function getCurrentTime() {
 setInterval(getCurrentTime, 1000)
 
 navigator.geolocation.getCurrentPosition(position => {
-    fetch(`https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=imperial`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=imperial&appid=b830e75d72318fd97b6d704b35cdd4ff`)
         .then(res => {
             if (!res.ok) {
                 throw Error("Weather data not available")

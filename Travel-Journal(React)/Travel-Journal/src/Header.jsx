@@ -3,7 +3,8 @@ import React from 'react'
 export default function Header(){
     return(
         <div className='Header-Container'>
-            <p>🌎 my Travel Journal</p>
+            <i className="fa-solid fa-earth-americas"></i>
+            <p>my Travel Journal</p>
         </div>
     )
 }
